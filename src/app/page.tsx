@@ -42,6 +42,7 @@ const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
     }
   };
 
+  export function Home(){
   return(
     <main className="flex min-h-screen flex-col items-center justify-between px-24 py-5">
           <h1 className="text-5xl font-sans">ChatterBot</h1>
@@ -90,5 +91,5 @@ const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
 
           {isLoading ? <div className="self-start  bg-gray-200 text-gray-800 w-max max-w-[18rem] rounded-md px-4 py-3 h-min">*thinking*</div> : ""}
         </div>
+  }
 
-}
