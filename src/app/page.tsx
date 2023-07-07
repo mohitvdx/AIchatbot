@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function Home() {
+
   const [theInput, setTheInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [messages, setMessages] = useState([
