@@ -89,6 +89,6 @@ export default function Home(){
       );
   
 }
-  // i cant seem to figure out what the problem is must be some issu with the api key or something
+  
 
      
