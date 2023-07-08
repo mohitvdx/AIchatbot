@@ -11,7 +11,7 @@ export async function POST(req: Request, res: NextResponse) {
     const body = await req.json()
   
     const completion = await openai.createChatCompletion({
-      model:"gpt-3.5-turbo",
+      model:"text-davinci-003",
       messages: body.messages,
     });
     console.log(completion.data.choices[0].message);
